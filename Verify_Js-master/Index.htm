@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<title>Verify表单验证控件-演示</title>
+<script type="text/javascript" src="Scripts/jquery.js"></script>
+<script type="text/javascript" src="Scripts/Verify.js"></script>
+<script type="text/javascript" src="Scripts/Index.js"></script>
+<link rel="stylesheet" href="Styles/Index.css"/>
+</head>
+<body>
+  <form onsubmit="alert('验证成功');return false;" place="right">
+    <p> 账号1：
+      <input name="" type="text" nullable="false" datatype="user"/>
+    </p>
+    <p> 账号2：
+      <input name="" type="text" nullable="false" star="false"/>（star="false"不显示星号）
+    </p>
+    <p>
+      <input type="submit" name="button" class="button" value="验证表单" verify="true"/>
+    </p>
+  </form>
+</body>
+
+</html>

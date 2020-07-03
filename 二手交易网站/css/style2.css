@@ -1,0 +1,118 @@
+body {
+    font: 14px/24px 'Microsoft YaHei'
+}
+
+* {
+    margin: 0;
+    padding: 0
+}
+
+.z {
+    float: left;
+}
+
+.y {
+    float: right
+}
+
+.cl {
+    clear: both
+}
+
+.mr_0 {
+    margin: 0;
+}
+
+.container1 {
+    margin-left:350px;
+    width: 1200px;
+    height: 1800px;
+}
+/*header*/
+
+.header {
+    width: 100%;
+    height: 300px;
+    background: green;
+}
+
+
+/*center*/
+
+.center {
+    width: 100%;
+    height: 1200px;
+    margin-top: 50px;
+}
+
+.tipsline {
+    width: 100%;
+    height: 50px;
+    background-color: red;
+    margin-bottom: 10px;
+}
+
+.left {
+    width: 50%;
+    height: 500px;
+    
+}
+.right {
+    width: 50%;
+    height: 500px;
+    
+    
+
+}
+
+.image1 {
+    margin: 0 auto;
+    width: 60%;
+    height: 500px;
+}
+
+.font1 {
+    font-family: 微软雅黑;
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+.font2 {
+    font-family: 微软雅黑;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    color: #333333;
+    margin-top: 20px;
+}
+
+.font3 {
+    font-family: 仿宋_gb2312;
+}
+
+.input {
+    width: 100%;
+    height: 400px;
+    
+   
+}
+
+/*Footer*/
+.footer {
+    width: 100%;
+    height: 200px;
+    margin-top: 10px;
+    background-color: red;
+}
+
+
+
+/*联系我们页面*/
+.top {
+    width: 100%;
+    height: 350px;
+    
+}

@@ -1,0 +1,39 @@
+.shopping{
+    padding-left: 0px;
+    display: flex;
+}
+.shopping_right{
+    width: 100%;
+    height: 1000px;
+    /* background-color: blue; */
+    margin-left: 5%;
+    /* display: flex; */
+}
+.img1{
+    width: 100%;
+    height: 320px;
+    /* background-color: red; */
+}
+.img1 img{
+    width: 100%;
+    height: 280px;
+    margin-top: 10px;
+}
+.img1 div{
+    margin-top: 10px;
+    text-align: center;
+}
+.img1 :hover{
+    border: 1px solid #AAA;
+}
+.button_show button:nth-child(1){
+    
+}
+.describe{
+    width: 900px;
+    height: 600px;
+    /* background-color: red; */
+}
+#image_content{
+    margin-top: 50px;
+}
